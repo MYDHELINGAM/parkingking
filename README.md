@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Parkaro
 
-# Run and deploy your AI Studio app
+Parkaro is a simple parking booking web app with user and admin dashboards, booking pages, and authentication screens.
 
-This contains everything you need to run your app locally.
+**Core pages**: Login, UserDashboard, AdminDashboard, Booking, MyBookings
 
-View your app in AI Studio: https://ai.studio/apps/drive/1bPY10xPE-6rGhrVSaZrT3Cstjj1TuPfs
+## Features
 
-## Run Locally
+- User authentication (login)
+- Booking creation and management
+- User view of bookings
+- Admin dashboard for management
 
-**Prerequisites:**  Node.js
+## Technology
 
+- Framework: Vite + React
+- Language: TypeScript
+- See `package.json` for dependencies (`react`, `react-dom`, `react-router-dom`, `vite`)
+
+## Setup (local)
+
+Prerequisites: Node.js (LTS recommended)
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+```bash
+npm install
+```
+
+2. Run development server:
+
+```bash
+npm run dev
+```
+
+3. Open the app at the URL shown by Vite (usually http://localhost:5173)
+
+## Development notes
+
+- Source files are in the project root and `pages/` and `components/` folders.
+- Scripts: `dev`, `build`, `preview` (see `package.json`).
+
+## Contributing
+
+- Feel free to open issues or submit pull requests.
+
+## License
+
+- Add a license file if you want to open-source this project.
+
+---
+
+If you want, tell me the exact project description, author, and license and I will update this README accordingly.
