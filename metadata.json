@@ -1,0 +1,5 @@
+{
+  "name": "Parkaro",
+  "description": "A premium smart parking management system with real-time slot allocation, user bookings, and admin controls.",
+  "requestFramePermissions": []
+}
